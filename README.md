@@ -3,9 +3,9 @@
 # Join the bot [here](https://t.me/Binance_Moonbix_bot/start?startapp=ref_1743864852&startApp=ref_1743864852)
 
 > [!WARNING]
-> I am not responsible for your account. Please consider the potential risks before using this bot.
+> ⚠️ I do my best to avoid detection of bots, but using bots is forbidden in all airdrops. i cannot guarantee that you will not be detected as a bot. Use at your own risk. I am not responsible for any consequences of using this software.
 
-# 🔥🔥 Use PYTHON 3.10 - 3.11.5 🔥🔥
+# 🔥🔥 MUST USE PYTHON 3.11.5 (CAPTCHA VERSION ISN'T WORK ON TERMUX)🔥🔥
 
 ## Features  
 | Feature                                                     | Supported  |
@@ -15,6 +15,7 @@
 | Auto ref                                                      |        ✅        |
 | Auto checkin                                                  |        ✅        |
 | Auto play game                                                |        ✅        |
+| Auto solve captcha                                             |        ✅        |
 | Support for pyrogram .session                                 |        ✅        |
 Auto get maxium points each game        |        ✅        |
 ## [Settings](https://github.com/vanhbakaa/moonbix-bot/blob/main/.env-example)
@@ -24,6 +25,8 @@ Auto get maxium points each game        |        ✅        |
 | **REF_LINK**               | Put your ref link here (default: my ref link)                                                                 |
 | **AUTO_TASK**              | Auto do task (default: True)                                                                                  |
 | **AUTO_PLAY_GAME**         | AUTO PLAY GAME (default: True)                                                                                |
+| **MORE_ACCURATE_CAPTCHA_SOLVER**         | Option to use more accurate solver (it will slower) (default: False)                                                                                |
+| **DELAY_EACH_ACCOUNT**         | SLEEP between each account (default: [15,25])                                                                                |
 | **USE_PROXY_FROM_FILE**    | Whether to use a proxy from the bot/config/proxies.txt file (True / False)                                    |
 
 
@@ -33,7 +36,7 @@ To install libraries and run bot - open run.bat on Windows
 
 ## Prerequisites
 Before you begin, make sure you have the following installed:
-- [Python](https://www.python.org/downloads/) **version 3.10 - 3.11.5**
+- [Python](https://www.python.org/downloads/) **version 3.11.5**
 
 ## Obtaining API Keys
 1. Go to my.telegram.org and log in using your phone number.
